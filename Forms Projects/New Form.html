@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Form</title>
+
+</head>
+<body  background="formbg.jpg" align = "center">
+
+    <h1>Sign Up Page</h1>
+
+    <form action="Information.html" method="GET" target="_blank">
+        
+    <label for="name">Name : </label>
+    <input type="text" id="name" placeholder="Write Your Name" required>  <br> <br>
+
+    <label for="course">Course : </label>
+    <input type="course"  id="course" placeholder="Write Your course" required>   <br> <br>
+
+    <!-- Create a dropdown list -->
+    <label for="year">Select Your Passing Year</label>
+    <select name="years" id="year">
+        <option value=""></option> 
+        <option value="2019">2019</option>
+        <option value="2021">2020</option>
+        <option value="2020">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        
+    </select>    <br> <br>
+
+    <label for="email">Email : </label>   <!-- same id write into the for tag-->
+    <input type="email" id="email" placeholder="email" required>    <br><br>
+
+    <label for="mobile">Contact Number : </label>
+    <input type="mobile" id="mobile" placeholder="Write Your Contact Number" required>  <br> <br>
+
+    <label for="Uname">University Name : </label>
+    <input type="Uname"  id="Uname" placeholder="Write Your University Name" required> <br> <br>
+
+    <!-- Gender -->
+    <p>Select Your Gender</p>
+    <label for="male">Male </label>
+    <input type="radio" name="gender" id="male" required>  <br> 
+
+    <label for="female">Female </label>
+    <input type="radio" name="gender" id="female" required>  <br> 
+    
+    <label for="other">Other </label>
+    <input type="radio" name="gender" id="other" required>  <br> <br>
+
+    <p>Below Write Down About Yourself (Optional)</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="type here"></textarea> <br> <br>
+        <!-- textarea create a space in our webpages where we can write something -->
+
+    <input type="submit" value="SUBMIT">    
+
+
+</form>
+</body>
+</html>
+
+
+<!-- Here if we want send this form with values then we use method and name parameter because values have gone into the name parameter -->

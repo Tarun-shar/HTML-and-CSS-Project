@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form action="Information.html">
+<!--  Here i am using action and give the link of the firstfile page link in the action -->
+
+<!-- Set placeholders and use required attributes because if we don't use required attribute then we can 
+    submit the form without complete filling so by the help of required attribute we can solve or remove this problem -->
+
+        <label for="name">Name : </label>   <!-- same id write into the for tag-->
+        <input type="text" id="name" placeholder="name" required >   
+        <!-- Here we have write type of the label and id is use for uniquely identifying any tag  -->
+
+        <br><br>
+
+        <label for="course">Course : </label>   <!-- same id write into the for tag-->
+        <input type="course" id="course" placeholder="course" required>    <br><br>
+
+        <label for="email">Email : </label>   <!-- same id write into the for tag-->
+        <input type="email" id="email" placeholder="email" required>    <br><br>
+
+        <!-- Create Radio Button and Radio button is used for select the gender of the user -->
+        <p>Select your gender</p>
+        <label for="male">Male</label>   
+        <input type="radio" name="gender" id="male" value="Male">    <br>
+        <label for="female">Female</label>   
+        <input type="radio" name="gender" id="female" value="Female">    <br>
+        <label for="other">Other</label>   
+        <input type="radio" name="gender" id="other" value="Other">    <br><br>
+
+        <!-- Create submit button -->
+        <input type="submit" value="SUBMIT">    
+
+
+    </form>
+
+    
+</body>
+</html>
